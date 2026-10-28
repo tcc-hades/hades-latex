@@ -4,7 +4,7 @@
 ## Integrantes
 - Rafael Trevisan Guilherme - RA:. 11.123.188-2
 - Mateus Soares Matos - RA:. 11.222.130-4
-- Gabriela Bassegio - RA:. 
+- Gabriela Bassegio - RA:. 11.123.140-3
 
 ## Orientador
 - [Prof. Dr. Fagner de Assis Moura Pimentel](http://lattes.cnpq.br/6747210702910392)
