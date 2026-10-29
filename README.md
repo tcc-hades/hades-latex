@@ -10,7 +10,7 @@
 - [Prof. Dr. Fagner de Assis Moura Pimentel](http://lattes.cnpq.br/6747210702910392)
 
 ## Objetivo
-- Desenvolver, integrar e validar um robô móvel autônomo de serviço dotado de locomoção omnidirecional de três rodas, integrando sensoriamento, controle e navegação para operação em ambientes residenciais no contexto da RoboCup@Home
+- Desenvolver, integrar e validar um robô móvel autônomo de serviço de locomoção omnidirecional de três rodas, integrando sensoriamento, controle e navegação para operação em ambientes residenciais no contexto da RoboCup@Home
 
 ## Resumo
 -
