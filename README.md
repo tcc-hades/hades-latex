@@ -1,5 +1,5 @@
 # Título
-- Desenvolvimento de uma Plataforma Móvel Omnidirecional de Três Rodas para Aplicações em Robótica de Serviço Doméstica
+- Desenvolvimento de uma Plataforma Móvel Omnidirecional de Três Rodas para Aplicações em Robótica de Serviço Doméstico
 
 ## Integrantes
 - Rafael Trevisan Guilherme - RA:. 11.123.188-2
@@ -13,7 +13,7 @@
 - Desenvolver, integrar e validar um robô móvel autônomo de serviço de locomoção omnidirecional de três rodas, integrando sensoriamento, controle e navegação para operação em ambientes residenciais no contexto da RoboCup@Home
 
 ## Resumo
--
+- Com o avanço tecnológico recente, a utilização de robôs de serviços, principalmente de serviços domésticos destaca-se como uma área de crescente relevância tecnológica e acadêmica. Nesse contexto, essa categoria da robótica exige a utilização de plataformas cada vez mais eficientes e ágeis, tendo como um dos cenários onde é possível realizar a comprovação dos métodos na competição RoboCup@Home. Com base nesse panorama, o trabalho prevê o desenvolvimento, integração e validação de um robô móvel autônomo com locomoção omnidirecional de três rodas, projetado para tarefas de assistência residencial.
 
 ---
 

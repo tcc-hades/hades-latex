@@ -7,6 +7,55 @@
 %%  O subtotal de cada item e o total são calculados automaticamente.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newcommand{\listaMateriais}{
-    \material{Descrição do item 1}{1}{100.00}{https://exemplo.com/item1} % Alterar
-    \material{Descrição do item 2}{2}{49.90}{https://exemplo.com/item2} % Alterar, adicionar ou remover
+    % --- Elétrica ---
+    \material{Motores brushed 12V}{4}{199.61}{https://www.robotshop.com/products/36mm-12v-170rpm-brushed-dc-gear-motor-w-encoder-151?qd=95d622c03dfc26e62853805bb91796c5}
+    \material{Motor Brushless 36V}{5}{3029.94}{https://www.robotshop.com/products/my-actuator-rmd-x8-pro-v2-can-bus-bldc-actuator-w-19-reduction-mc-x-300-o-driver?qd=24f9115e931b70e6c6c6899f8712cdcd}
+    \material{Sabertooth 2x32}{3}{679.67}{https://www.robotshop.com/products/sabertooth-dual-2x32a-6v-24v-regenerative-motor-driver?qd=17bf519412cec6913429004a3c9944e5}
+    \material{Esp32-S3}{3}{94.30}{https://curtocircuito.com.br/placa-devkitc-1-esp32-s3-n16r8.html?utm_term=&utm_campaign=&utm_source=adwords&utm_medium=ppc&hsa_acc=7016354091&hsa_cam=16065462870&hsa_grp=130180187942&hsa_ad=579259865430&hsa_src=g&hsa_tgt=pla-387028615377&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=16065462870&gbraid=0AAAAADLsNZ3AOXzVyVU7sjB3kV4f4ViSl&gclid=CjwKCAiAzZ_NBhAEEiwAMtqKy1sA6UAN300lzGlL8oPkJcL7UbNWCPJiN7ut7O74mJI8l7dMR8B8BRoCUVAQAvD_BwE}
+    \material{IMU}{1}{249.90}{https://www.saravati.com.br/modulo-sensor-de-orientacao-absoluta-bno055-9-dof.html}
+    \material{Fim de curso}{4}{3.18}{https://www.fornell.com.br/produtos/chave-micro-switch-kw11-3z-17mm-3t-5a-c-roldana/}
+    \material{Regulador de tensão Steep-Down}{5}{68.88}{https://www.saravati.com.br/modulo-conversor-de-tensao-dc-dc-300w-20a-step-down-xl4016.html}
+    \material{Borne Kre 2 Vias}{10}{0.99}{https://www.fornell.com.br/produtos/conector-borne-kre-2-vias-verde-passo-5mm-kf128-5-0-02p-85mm/}
+    \material{Borne Kre 3 Vias}{10}{1.70}{https://www.fornell.com.br/produtos/borne-3-vias-180graus-copia/}
+    \material{Fio 1,5 mm vermelho}{1}{193.59}{https://www.fornell.com.br/produtos/cabinho-flexivel-14awg-150mm-rolo-100m-mll33/}
+    \material{Fio 1,5 mm preto}{1}{193.59}{https://www.fornell.com.br/produtos/cabinho-flexivel-14awg-150mm-rolo-100m-mll33/}
+    \material{Fio 0,5 mm vermelho}{10}{1.60}{https://www.casadoresistor.com.br/fio-cabo-flexivel-0-50mm-450-750v-vermelho}
+    \material{Fio 0,5 mm preto}{10}{2.50}{https://www.saravati.com.br/cabo-flexivel-20-awg-0-50mm-preto-vendido-p-metro.html}
+    \material{Fio 0,5 mm branco}{10}{1.60}{https://www.casadoresistor.com.br/fio-cabo-flexivel-0-50mm-450-750v-branco}
+    \material{Fio 0,5 mm azul}{10}{1.60}{https://www.casadoresistor.com.br/fio-cabo-flexivel-0-50mm-450-750v-azul}
+    \material{Sensor infravermelho}{3}{32.90}{https://www.saravati.com.br/sensor-de-obstaculos-infravermelho-e18-d80nk.html}
+    \material{Sensor ultrassônico}{1}{39.90}{https://www.robocore.net/sensor-robo/sensor-ultrassonico-jsn-sr04m-a-prova-de-agua}
+    \material{Botão de emergência}{1}{124.00}{https://www.mercadolivre.com.br/up/MLBU3668390884?pdp_filters=item_id:MLB6022378672&matt_tool=38524122##origin=share&sid=share&wid=MLB6022378672&action=copy}
+    \material{Display Oled}{2}{29.99}{https://www.saravati.com.br/display-oled-128x64-px-0-96-4-pin-azul.html}
+    \material{Mosfet MDP1932}{2}{28.00}{https://www.pontodaeletronica.com.br/transistor-mdp1932.html}
+    \material{Cooler}{4}{16.19}{https://www.fornell.com.br/produtos/cooler-fan-foxconn-pv902512hspf-90mm-12v-0-36a-ayk7u/}
+    \material{Esteira porta cabo}{2}{76.50}{https://loja.forsetisolucoes.com.br/produto/esteira-porta-cabos-25x50mm-interno-nylon-aberta-1-metro/}
+    \material{Conector XT-60}{6}{4.90}{https://www.eletrogate.com/conector-xt-60?utm_source=Site&utm_medium=GoogleMerchant&utm_campaign=GoogleMerchant&gad_source=4&gad_campaignid=20223015315&gbraid=0AAAAADqxjs9ais5nihZ3KU0-ZtOSBczvw&gclid=CjwKCAjwzevPBhBaEiwAplAxvpWZmHKaxQ7xRsdkWfFUi5t5NBQEJ4jSo_rc7p7sHC9zmx8x88Ia6RoC5LMQAvD_BwE}
+    \material{Conector WAGO 5 vias}{1}{30.00}{https://www.leroymerlin.com.br/conector-de-emenda-de-5-vias-linha-221-4-unidades-wago_89901392?store_code=16}
+    \material{Conector WAGO 2 vias}{2}{15.50}{https://www.leroymerlin.com.br/conector-de-emenda-de-2-vias-4mm-2-unidades-wago_92008056?store_code=16}
+    \material{Conector WAGO 3 vias}{1}{23.90}{https://www.leroymerlin.com.br/conector-de-emenda-de-3-vias-linha-221-4-unidades-wago_89901385?store_code=16}
+
+    % --- Mecânica ---
+    \material{Acrílico Preto (1000x500x3)}{2}{101.18}{https://www.acriloja.com/chapa-placa-de-acrilico-preto-100cm-x-50cm-espessura-3mm}
+    \material{Chapa Alumínio (600x600x3)}{3}{298.00}{https://www.aluminioalure.com.br/chapa-de-aluminio-300mm}
+    \material{Perfil Alumínio Abaolado (20x20x1)}{400}{0.39}{https://oceantech-automation.com.br/produtos/perfil-aluminio-estrutural-abaulado-20x20r-1-5mm-valor-por-centimetro/}
+    \material{Perfil Alumínio (20x20x1000)}{4}{315.00}{https://loja.forsetisolucoes.com.br/perfil-estrutural-em-aluminio-20x20-canal-6-v-slot-vslot-openbuild-open-build-preto?srsltid=AfmBOophTs8nhZ55xmaPOYFSGymK7OTIu9RGivcH5DzSq7o57_XRkEQy}
+    \material{Chapa MDF (2750x1850x6)}{1}{143.90}{https://www.leomadeiras.com.br/p/10280508/mdf-cru-miolo-claro-6mm-2750x1850mm-grandes-marcas##wrapper}
+    \material{Parafuso Allen M3 (10mm)}{100}{0.12}{https://www.parafusofacil.com.br/parafuso-allen/parafuso-allen-chato/din-7991-parafuso-allen-chato-ma-3-x-10-aco-liga-classe-10-9-enegrecido-de-tempera/}
+    \material{Parafuso Allen M4 (10mm)}{100}{0.09}{https://www.parafusofacil.com.br/parafuso-allen/parafuso-allen-chato/din-7991-parafuso-allen-chato-ma-4-x-10-aco-liga-classe-10-9-enegrecido-de-tempera/}
+    \material{Parafuso Allen M5 (10mm)}{100}{0.17}{https://www.parafusofacil.com.br/parafuso-allen/parafuso-allen-chato/din-7991-parafuso-allen-chato-ma-5-x-10-aco-liga-classe-10-9-enegrecido-de-tempera/}
+    \material{Parafuso Allen M3 (10mm)}{100}{0.23}{https://www.parafusofacil.com.br/parafuso-allen/parafuso-allen-abaulado/din-en-iso7380-parafuso-allen-abaulado-ma-3-x-10-aco-liga-classe-10-9-enegrecido-de-tempera/}
+    \material{Parafuso Allen M4 (10mm)}{100}{0.20}{https://www.parafusofacil.com.br/parafuso-allen/parafuso-allen-abaulado/din-en-iso7380-parafuso-allen-abaulado-ma-4-x-10-aco-liga-classe-10-9-enegrecido-de-tempera/}
+    \material{Parafuso Allen M5 (10mm)}{100}{0.27}{https://www.parafusofacil.com.br/parafuso-allen/parafuso-allen-abaulado/din-en-iso7380-parafuso-allen-abaulado-ma-5-x-10-aco-liga-classe-10-9-enegrecido-de-tempera/}
+    \material{Parafuso Allen M3 (12mm)}{100}{0.22}{https://www.parafusofacil.com.br/parafuso-allen/parafuso-allen-abaulado/din-en-iso7380-parafuso-allen-abaulado-ma-3-x-12-aco-liga-classe-10-9-enegrecido-de-tempera/}
+    \material{Rolamento SKF 619/8-2Z}{2}{34.23}{https://loja.abecom.com.br/rolamento-rigido-de-esferas-skf-619-8-2z}
+    \material{Filamento PLA CF 1kg}{2}{179.99}{https://3dfila.com.br/produto/filamento-pla-cf-fibra-de-carbono/}
+
+    % --- Programação ---
+    \material{ORBEC}{1}{1951.95}{https://store.orbbec.com/products/gemini-335l}
+    \material{Display Touch 7''}{1}{427.40}{https://www.robocore.net/acessorios-raspberry-pi/display-touch-7pol-hdmi}
+    \material{Caixa de som}{1}{1.099,00}{https://edifier.com.br/monitor-de-audio-36w-rms-bluetooth-5-4-hi-res-edifier-mr3.html}
+    \material{Optiplex Micro Plus}{1}{9348.00}{https://www.dell.com/pt-br/shop/computadores-all-in-ones-e-workstations/desktop-dell-pro-micro/spd/dell-pro-qcm1250-micro}
+    \material{Microfone}{1}{227.99}{https://www.kabum.com.br/produto/592292/microfone-dinamico-gamer-fifine-ampligame-rgb-cardioide-usb-c-anti-ruido-para-streaming-preto-am8}
+    \material{Laser 3D}{1}{3178.72}{https://store.orbbec.com/products/pulsar-me450}
 }
